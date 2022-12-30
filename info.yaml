@@ -1,0 +1,33 @@
+---
+group:
+  - name: Luke Griffiths
+    netid: lsg84
+  - name: Jonas Funk
+    netid: jwf224
+  - name: Tristan Golden
+    netid: tbg35
+# Your PM.
+pm:
+  name: Matthew DeSousa
+  netid: med279
+# Set to false if you don't want your gallery entry to be public.
+publish: false
+# Pithy title
+title: "Chess, Made by Camels"
+# OK if this is a Cornell Github link, but public gallery viewers won't be able to see it.
+git-repo: "https://github.coecis.cornell.edu/lsg84/cs3110.git"
+# If you have no demo screencast, replace the url string with an empty string ""
+demo-video-url: ""
+# Write a short, attention-grabbing description of your project.
+desc: >
+  Our project is a terminal based, two player game of chess. We visualize a 
+  chessboard in the terminal, then prompt players to move pieces by typing the 
+  column and row of the piece and the column and row to move the piece to--just 
+  like a real chess game. 
+  Our game ensures that the rules of chess are followed: you can't move a piece 
+  somewhere that breaks the rules of chess. In addition, we provide support for
+   complex behavior such as castling and pawn promotion. Finally, we 
+   implemented check: the king cannot move into check, and a message tells 
+   players when a king is in check. 
+  
+  

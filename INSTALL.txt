@@ -1,0 +1,32 @@
+Step 1: Download chess.zip onto your computer
+Step 2: Create a directory you'd like to run chess from. For example, you might want to create a directory
+by running mkdir ~/ms2_chess from the Unix terminal. Make sure to navigate there by running cd ~/ms2_chess
+Step 3: Move chess.zip into the directory that you created above.
+If you are on windows, you might want to run the following command (assuming you downloaded to Downloads) to coypy the
+folder into your directory.
+
+$ cp /mnt/c/Users/<windows user name>/Downloads/chess.zip .
+
+If on Mac or Linux, move it how you would a normal file.
+
+Step 4: After moving it to your directory, unzip it by running
+
+$ unzip chess.zip
+
+You should now be in the proper directory to play chess
+
+Step 5: We use ANSITerminal for the text user interface. If it is not installed run
+
+$ opam install ANSITerminal
+
+If it is already installed, then Good. Else, it might prompt you to update OPAM. If so, run
+
+$ opam update
+
+Then, if it prompts you to upgrade afterwards, run
+
+$ opam upgrade
+
+Step 5: The next thing to do is Play! run the following command to play
+
+$ make play
